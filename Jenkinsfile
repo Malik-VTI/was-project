@@ -1,7 +1,6 @@
 pipeline {
-    agent {
-        label 'was' // Harus sesuai dengan label runner Jenkins
-    }
+
+    agent any
 
     environment {
         WAS_MODE = 'cicd'
