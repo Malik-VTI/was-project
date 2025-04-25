@@ -4,8 +4,8 @@ pipeline {
 
     environment {
         WAS_MODE = 'cicd'
-        ACCESS_KEY = credentials('$e6e3226d7b38d93f5d80381c8e30e61db91d2d5fd81af425b90af929ebacfdcd') // Ganti dengan ID credential di Jenkins
-        SECRET_KEY = credentials('$6dd62277a2aca9c82891b3199bcf10540a0eba15655ff00d1508b5015a17b5e6') // Ganti dengan ID credential di Jenkins
+        ACCESS_KEY = '$e6e3226d7b38d93f5d80381c8e30e61db91d2d5fd81af425b90af929ebacfdcd'// Ganti dengan ID credential di Jenkins
+        SECRET_KEY = '$6dd62277a2aca9c82891b3199bcf10540a0eba15655ff00d1508b5015a17b5e6' // Ganti dengan ID credential di Jenkins
     }
 
     stages {
