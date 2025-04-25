@@ -15,9 +15,7 @@ pipeline {
                 git branch: 'main', url: 'https://github.com/Malik-VTI/was-project.git'
             }
         }
-    }
 
-    stages {
         stage('Web App Scan') {
             steps {
                 script {
